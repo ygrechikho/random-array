@@ -9,4 +9,8 @@ public class NumberTypeCalculator {
         }
         return result;
     }
+
+    public static void printResult(int result) {
+        System.out.println("Total of positive & even: " + result);
+    }
 }
